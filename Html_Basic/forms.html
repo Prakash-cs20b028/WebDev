@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <i>
+        <h1>Form Document</h1>
+
+        <input type="text">Enter Text Here <br><br>
+        <input type="password">Enter Password Here<br><br>
+        <input type="email">Enter Email Here <br><br>
+        <input min=20 max = 100 type="number">Enter Number Here <br><br>
+        <input type="date">Enter Date Here <br><br>
+        <input type="file">Upload File Here <br><br>
+
+        <input id="check1" type="checkbox"><label for="check1">Check me 1</label>        
+        <input id="check2" type="checkbox"><label for="check2">Check me 2</label>        
+        <input id="check3" type="checkbox"><label for="check3">Check me 3</label><br>
+
+        <!-- Here name is important to facilitates the use of radio -->
+        <input type="radio" name="group1" id="radio1"><label for="radio1">Radio 1</label>
+        <input type="radio" name="group1" id="radio2"><label for="radio2">Radio 2</label>
+        <input type="radio" name="group1" id="radio3"><label for="radio3">Radio 3</label><br><br>
+    
+        <textarea rows="1" cols="20" placeholder="Enter the text">Enter text here</textarea><br><br>
+        
+        <select>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>        
+        </select> Choose Options<br><br>
+
+        <form action="https://google.com"> 
+            <input type="text" required>
+            <button type="submit">Submit</button>
+        </form>
+
+    </body>
+</html>
