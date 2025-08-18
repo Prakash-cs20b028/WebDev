@@ -1,5 +1,5 @@
 /*
-    h1+p is a adjacent selector and only below p element will be selected.
+    h1+p is a adjacent selector and only one below p element will be selected.
 */
 
 h1 + p{
@@ -10,7 +10,7 @@ h1 + p{
     that are in the same level of hierarchy as h1. Suppose there is div tag and 
     inside it p is there, then it will not be selected.
 */
-h1 ~ p{
+/* h1 ~ p{
     color:blue;
-}
+} */
 
