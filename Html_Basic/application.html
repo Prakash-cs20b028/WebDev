@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+</head>
+<body>
+    <form action="https://example.com/submit" method="post">
+        <h1>Fill Admission Form</h1>
+        
+        <h3 style="display:inline">Enter your name</h3>
+        <input type="text" placeholder="Enter Name Here" required style="display:inline; margin-left:6px;" id="name"><br><br>
+        <label for="name" style="display:none">Name</label> 
+
+        <h3 style="display:inline">Enter your email</h3>
+        <input type="email" placeholder="Enter Email Here" required style="display:inline; margin-left:6px;"><br><br>
+
+        <h3 style="display:inline">Enter your phone number</h3>
+        <input type="tel" placeholder="Enter Phone Number Here" required style="display:inline; margin-left:6px;"><br><br>
+
+        <h3 style="display:inline">Enter your semester </h3>
+        <select name="sem" id="1" style="display:inline; margin-left:6px;">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select> <br><br>
+
+        <h3 style="display:inline">Enter your branch</h3>
+        <select name="branch" id="2" style="display:inline; margin-left:6px;">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="ME">ME</option>
+            <option value="CE">CE</option>
+            <option value="IT">IT</option>
+        </select> <br><br>   
+
+        <div style="display: flex; align-items: center;">
+            <h3 style="margin: 0;">Attach your fee receipt</h3>
+            <input type="file" required style="margin-left: 6px;">
+        </div>
+
+        <button type="submit" style="margin-top: 30px;" >Submit Application</button> 
+    </form>
+</body>
+</html>
