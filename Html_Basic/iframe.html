@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Iframe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Welcome to the Iframe Page</h1>
+
+        <ul>
+            <li><a target="frame1" href="./iframe.html">Link Page</a></li>            
+            <li><a target="frame2" href="./index.html">Index Page</a></li>
+            <li><a target="frame3" href="./list.html">List Page</a></li>
+        </ul>
+        <!--Add two static pages-->
+        <iframe name="frame1" frameborder = "0" src="./link.html" width=400 height=300></iframe>
+        
+        <iframe name="frame2" frameborder = "0" src="./index.html" width=250 height=300></iframe>
+
+        <iframe name="frame3" frameborder = "0" src="./list.html" width=400 height=300></iframe>
+
+        
+        
+    </body>
+</html>
+
+<!-- If target is not found then it will open a new tab. It's behaviour is like _self -->
