@@ -27,3 +27,21 @@ let b = function(){
 }
 console.log(b(), typeof b());
 console.log(b, typeof b);
+
+//console.log(temp()) //can't use before initialization
+console.log(temp) //only works for var not for let. 
+var temp = function(){
+    return 'abc';
+}
+console.log(temp2());
+
+function temp2(){
+    return 'abc';
+}
+
+function area(len,bre)
+{
+    return len*bre;
+}
+console.log(area(10,20));
+console.log(area(10)); //second part is undefined though it doesn't give any error.
