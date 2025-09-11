@@ -41,7 +41,12 @@ function temp2(){
 
 function area(len,bre)
 {
-    return len*bre;
+    console.log('Hello area');
+    //return len*bre;
 }
 console.log(area(10,20));
+area(50)
 console.log(area(10)); //second part is undefined though it doesn't give any error.
+
+
+
