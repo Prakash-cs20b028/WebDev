@@ -22,3 +22,5 @@ console.log(subtract(100,20,30,40)); //extra arguments are ignored.
     Case3: if calling function has no arguments then it returns NaN. But internally it has arguments object which stores the passed arguments.
     
 */
+
+
